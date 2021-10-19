@@ -9,4 +9,15 @@ module.exports = {
     port: 7379,
     client: null,
   },
+  mysql: {
+    options: {
+      dialect: "mysql",
+      host: "localhost",
+      port: 3406,
+      database: "shopper",
+      username: "root",
+      password: "mypassword",
+    },
+    client: null,
+  },
 };
